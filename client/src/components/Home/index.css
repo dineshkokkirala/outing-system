@@ -1,0 +1,36 @@
+/*.home-container{
+    background-image: url("../../assets/clg4.png");
+    background-size: cover;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left:40px;
+} */
+.app-container {
+  background-image: url("../../assets/college6.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.admin-card {
+  width: 400px;
+}
+.student-card {
+  width: 400px;
+}
+@media screen and (max-width: 576px) {
+  .app-container {
+    flex-direction: column;
+  }
+  .admin-card {
+    width: 300px;
+  }
+  .student-card {
+    width: 300px;
+  }
+}

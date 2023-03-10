@@ -1,0 +1,37 @@
+.adminCard{
+    background-color: rgb(83, 80, 89,0.5);
+    color:#fff;
+}
+
+.home-container{
+    background-image: url("../../assets/home.jpg");
+    background-size: cover;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left:40px;
+}
+.custom-login-btn{
+    background-color: #535059;
+    border: 0;
+    color:#fff;
+    padding:8px 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    letter-spacing: 2px;
+    animation-name: login-btn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transition-property: all;
+    transition-duration: 1s;
+}
+@keyframes login-btn{
+    0%{opacity: 0;}
+    50%{opacity:0.5;}
+    100%{opacity: 1;}
+}
+.custom-login-btn:hover{
+    background-color: #425512;
+}

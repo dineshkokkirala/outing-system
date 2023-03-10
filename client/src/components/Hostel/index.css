@@ -1,0 +1,27 @@
+.sideHeading {
+  font-weight: bold;
+}
+.cardMargin {
+  margin-right: 30px;
+  margin-top: 20px;
+  max-width: 350px;
+  margin-bottom: 20px;
+}
+.stats {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background-color: #eaeceb;
+}
+@media screen and (max-width: 576px) {
+  .cardMargin {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .stats {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}

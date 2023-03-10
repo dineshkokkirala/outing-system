@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb+srv://dinesh:UZxmvapWkvVPxy0z@outing-system.vromaks.mongodb.net/?retryWrites=true&w=majority",
+    "JWT_SECRET":"Vishnu123$"
+}

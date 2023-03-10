@@ -1,0 +1,48 @@
+.light{
+    border:2px solid #333;
+    border-radius: 50%;
+    width:32px;
+    height:32px;
+    margin-right: 20px;
+}
+.lights-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+.outingText{
+    color:#000;
+    font-weight: 500;
+    font-size:20px;
+}
+@media screen and (max-width:576px){
+    .lights-container{
+        margin-top:20px;
+        flex-direction: column;
+    }
+    .light{
+        margin-right:0;
+    }
+    .effects-container{
+        margin-top:20px;
+    }
+    .outingText{
+        color:#000;
+        font-weight: 500;
+        font-size:16px;
+    }
+  
+}
+
+.my-outings-container{
+    /* background-image: url("../../assets/student.jpg");
+    background-size: cover;
+    height:100vh; */
+    background-color: #d7c099;
+    min-height: 100vh;
+}
+
+.blur{
+    opacity:0.9;
+}

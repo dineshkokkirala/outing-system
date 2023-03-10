@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+.img {
+  background-image: url("../../assets/h8.jpeg");
+  background-size: cover;
+  min-height: 100vh;
+}
+.add-hostel-conatiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 90vh;
+}
+.add-hostel-heading {
+  background-color: #1c8d73;
+  text-align: center;
+  padding: 16px 20px 18px 20px;
+  border-radius: 8px;
+  color: #fff;
+  opacity: 0.8;
+}
+.custom-btn {
+  width: 120px;
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: 0;
+  font-weight: 600;
+  background-color: #1c8d73;
+  color: #fff;
+  margin-bottom: 20px;
+  outline: none;
+}
+.custom-btn:hover {
+  background-color: #fff;
+  border: 2px solid #1c8d73;
+  color: #1c8d73;
+}

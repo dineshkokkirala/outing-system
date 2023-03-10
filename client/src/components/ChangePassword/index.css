@@ -1,0 +1,47 @@
+.passwordContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.change-password-container {
+  background-image: url("./assets/lock.jpg");
+  background-size: cover;
+  min-height: 100vh;
+}
+.change-fields-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.custom-change-password-button {
+  background-color: #000932;
+  color: #16add6;
+  border: 0;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  animation-name: change-button;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  transition-property: all;
+  transition-duration: 2s;
+  letter-spacing: 1px;
+}
+@keyframes change-button {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.custom-change-password-button:hover {
+  background-color: #fff;
+  /* border: 2px solid #000932; */
+}

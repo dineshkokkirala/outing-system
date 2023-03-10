@@ -1,0 +1,14 @@
+
+
+.hod-container{
+    background-image: url("../../assets/home.jpg");
+    background-size:cover;
+    min-height:100vh;
+}
+
+.cardMargin{
+    background-color:#E8EAE9;
+    color:BLACK;
+    opacity: 0.9;
+}
+

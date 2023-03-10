@@ -1,0 +1,8 @@
+.getMargin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.color{
+    background-color: #d7c099;
+}

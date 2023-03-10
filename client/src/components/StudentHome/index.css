@@ -1,0 +1,40 @@
+.student-home-container {
+  background-image: url("../../assets/student.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 40px;
+}
+.text-color {
+  color: #ffe4b5;
+  font-weight: bold;
+}
+.details-container {
+  display: flex;
+  flex-direction: row;
+}
+.container-1 {
+  margin-right: 20px;
+  height: 100%;
+  /* background-color: #cdd1b7; */
+  background-color: #374756;
+  color: #fff;
+}
+@media screen and (max-width: 576px) {
+  .details-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-1 {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .student-home-container {
+    height: 100vh;
+    align-items: center;
+    padding-left: 0;
+  }
+}

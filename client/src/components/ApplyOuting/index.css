@@ -1,0 +1,9 @@
+.apply-container {
+  background-image: url("../../assets/student.jpg");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.blur {
+  opacity: 0.9;
+}
