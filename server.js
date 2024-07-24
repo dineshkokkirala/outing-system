@@ -23,9 +23,9 @@ app.use("/api/outing/",outingRoutes)
 app.use("/api/hod/",hodRoutes)
 app.use("/api/warden/",wardenRoutes)
 
-// app.get("/test",(req,res)=>{
-    //     res.send("API Works...")
-    // })
+app.get("/",(req,res)=>{
+        res.send("Hello from backend World!!")
+})
 
 
 //Serve statis assets in production
