@@ -185,7 +185,7 @@ class StudentOutings extends Component {
                                     </tbody>
                                 </table>
                             ):(
-                                <h3>No Outings</h3>
+                                <h3>No Previous Outings</h3>
                             )
                         )}
                     </div>

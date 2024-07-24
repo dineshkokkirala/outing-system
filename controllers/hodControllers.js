@@ -70,7 +70,7 @@ const allDepartmentUsers = async(req,res)=>{
     if(departmentUsers){
         return res.status(200).json(departmentUsers)
     }else{
-        return res.status(400).json({msg:"Unable to get al Users"})
+        return res.status(400).json({msg:"Unable to get all Users"})
     }
 }
 

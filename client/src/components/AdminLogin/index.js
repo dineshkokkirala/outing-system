@@ -46,7 +46,7 @@ class AdminLogin extends Component {
         const adminDetails = {email,password}
         const incharges = ["boysincharge@vishnu.edu.in","girlsincharge@vishnu.edu.in"]
         const wardens = ["boyswarden@vishnu.edu.in","girlswarden@vishnu.edu.in"]
-        const hods = ["basicsciencehod@vishnu.edu.in","ithod@vishnu.edu.in","ecehod@vishnu.edu.in","csehod@vishnu.edu.in","eeehod@vishnu.edu.in","civilhod@vishnu.edu.in","mechanicalhod@vishnu.edu.in"]
+        const hods = ["basicsciencehod@vishnu.edu.in","ithod@vishnu.edu.in","ecehod@vishnu.edu.in","csehod@vishnu.edu.in","eeehod@vishnu.edu.in","civilhod@vishnu.edu.in","mechanicalhod@vishnu.edu.in","hod-ece@gmail.com","hod-eee@gmail.com","hod-cse@gmail.com","hod-it@gmail.com","hod-mechanical@gmail.com","hod-civil@gmail.com"]
         
         if(incharges.includes(email)){
             const url = "/api/hostelIncharge/login"
